@@ -1,0 +1,79 @@
+<!-- dashboard.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dashboard</title>
+<link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+
+<!-- Navbar Start -->
+<header>
+    <nav>
+        <h1>Women Safety</h1>
+        <button onclick="logoutUser()">Logout</button>
+    </nav>
+</header>
+<!-- Navbar End -->
+
+<!-- Welcome Section Start -->
+<section class="welcome">
+    <h2>Welcome User 👋</h2>
+    <p>Your safety is our priority. Stay alert and stay safe.</p>
+</section>
+<!-- Welcome Section End -->
+
+<!-- SOS Section Start -->
+<section class="sos-section">
+    <button class="sos-btn">🚨SOS🚨</button>
+</section>
+<!-- SOS Section End -->
+
+<!-- Cards Section Start -->
+<section class="cards">
+
+    <div class="card">
+        <h3>📞 Emergency Contacts</h3>
+        <p>Manage your trusted contacts.</p>
+    </div>
+
+    <div class="card">
+        <h3>📍 Live Location</h3>
+        <p>Share your real-time location.</p>
+    </div>
+
+    <div class="card">
+        <h3>📜 Alert History</h3>
+        <p>View previous alerts and actions.</p>
+    </div>
+
+</section>
+<!-- Cards Section End -->
+
+<section class="contacts-section">
+    <h2>📞 Emergency Contacts</h2>
+
+    <input type="text" id="contactName" placeholder="Enter Name">
+    <input type="tel" id="contactPhone" placeholder="Enter Phone Number">
+
+    <button onclick="saveContact()">Add Contact</button>
+
+    <ul id="contactList"></ul>
+</section>
+
+<section class="history-section">
+    <h2>📜 Alert History</h2>
+    <ul id="historyList"></ul>
+</section>
+
+<!-- Footer Start -->
+<footer>
+    <p>© 2026 Women Safety Platform</p>
+</footer>
+
+
+<script src="dashboard.js"></script>
+</body>
+</html>
