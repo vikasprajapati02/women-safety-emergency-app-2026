@@ -43,7 +43,7 @@ Women-Safety/
 
 ### 1. Clone the repository
 ```bash
-git clone https://github.com/your-username/women-safety.git
+ https://vikasprajapati02.github.io/women-safety-emergency-app-2026/
 ```
 
 ### 2. Open project folder
